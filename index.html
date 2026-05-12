@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>海龟汤 V5 · 终极AI推理</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="top">🧠 海龟汤 V5 · 终极AI推理系统</div>
+
+<div id="story"></div>
+<div id="ai-status" class="status">AI：准备加载免费模型</div>
+
+<input id="q" placeholder="输入你的推理">
+<button onclick="ask()">提问</button>
+
+<div id="chat" class="chat"></div>
+
+<button onclick="hint()">💡 AI提示</button>
+<button onclick="reveal()">🔓 解锁真相</button>
+<button onclick="next()">🔄 新案件</button>
+
+<script src="data.js"></script>
+<script src="ai-core.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
